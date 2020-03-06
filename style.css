@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Oxanium';
+    src: url('fonts/oxanium/Oxanium-Regular.ttf') format('truetype');
+}
+
+p {
+	font-family: 'Oxanium', Impact, serif;
+}
