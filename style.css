@@ -1,0 +1,53 @@
+:root{
+  --jaune: #FDCA05;
+}
+
+@font-face {
+    font-family: 'Oxanium';
+    src: url('fonts/oxanium/Oxanium-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cinzel-bold';
+    src: url('fonts/cinzel/Cinzel-Bold.otf') format('opentype');
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+h2, strong {
+	font-family: 'Cinzel-bold', Arial, serif;
+}
+
+p, ul {
+	font-family: 'Oxanium', Arial, serif;
+}
+
+body {
+	display: flex;
+
+}
+
+
+/* aside bloc */
+aside {
+	background-color: var(--jaune);
+}
+
+aside h2 {
+	background-color: #404040;
+	color: var(--jaune);
+}
+
+aside ul {
+	list-style-type: none;
+
+}
+
+/* main bloc */
+
+main {
+	margin: auto;
+	padding-left: 40px;
+}
