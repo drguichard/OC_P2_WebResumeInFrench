@@ -3,6 +3,11 @@
     src: url('fonts/oxanium/Oxanium-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Cinzel';
+    src: url('fonts/cinzel/Cinzel-Regular.otf') format('opentype');
+}
+
 p {
-	font-family: 'Oxanium', Impact, serif;
+	font-family: 'Cinzel', 'Oxanium', Arial, serif;
 }
