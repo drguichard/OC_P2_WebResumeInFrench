@@ -26,7 +26,6 @@ p, ul {
 
 body {
 	display: flex;
-
 }
 
 
@@ -38,10 +37,22 @@ aside {
 aside h2 {
 	background-color: #404040;
 	color: var(--jaune);
+	display: flex;
+	justify-content: center;
 }
 
 aside ul {
 	list-style-type: none;
+}
+
+/* photo */
+aside p {
+	display: flex;
+	justify-content: center;
+}
+
+img {
+	  border-radius: 45%;
 }
 
 /* main bloc */
@@ -50,3 +61,31 @@ main {
 	margin: auto;
 	padding-left: 40px;
 }
+
+#prenom {
+	display: inline;
+	color: var(--jaune);
+}
+
+
+section ul {
+	padding-bottom: 20px;
+	border : none;
+}
+
+
+section ul li {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section ul li ul {
+	margin: auto;
+	width: 60%;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+
