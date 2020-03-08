@@ -32,27 +32,29 @@ body {
 /* aside bloc */
 aside {
 	background-color: var(--jaune);
+	display: flex;
+	flex-direction: column;
+	position: relative;
 }
 
 aside h2 {
 	background-color: #404040;
 	color: var(--jaune);
-	display: flex;
-	justify-content: center;
+	text-align: center;
 }
 
-aside ul {
-	list-style-type: none;
+aside section:nth-child(5) {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
 }
 
-/* photo */
-aside p {
-	display: flex;
-	justify-content: center;
+#photocv {
+	align-self: center;
 }
 
 img {
-	  border-radius: 45%;
+	border-radius: 45%;
 }
 
 /* main bloc */
@@ -60,6 +62,14 @@ img {
 main {
 	margin: auto;
 	padding-left: 40px;
+}
+
+header {
+	text-align: justify;
+}
+
+main ul {
+    padding-inline-start: 0px;
 }
 
 #prenom {
@@ -84,8 +94,8 @@ section ul li ul {
 	width: 60%;
 }
 
-ul {
-    padding-inline-start: 0px;
-}
+
+
+
 
 
