@@ -43,17 +43,42 @@ aside h2 {
 	text-align: center;
 }
 
+/* loisirs */
 aside section:nth-child(5) {
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
 }
 
+aside section:nth-child(5) ul {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 60px;
+	}
+
+/* compétences */
+aside section:nth-child(3) ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+	}
+
+/* images */
+.competences {
+  	height: 35px;
+  	padding: 5px; 
+}
+
+.loisirs {
+	width: auto;
+  	height: 90px; 
+}
+
 #photocv {
 	align-self: center;
 }
 
-img {
+#imgcv {
 	border-radius: 45%;
 }
 
@@ -86,7 +111,6 @@ section ul {
 
 section ul li {
 	display: flex;
-	flex-wrap: wrap;
 }
 
 section ul li ul {
@@ -94,6 +118,7 @@ section ul li ul {
 	width: 60%;
 }
 
+@media screen and (max-width: 1280px)
 
 
 
