@@ -12,7 +12,14 @@
     src: url('fonts/cinzel/Cinzel-Bold.otf') format('opentype');
 }
 
-h2 {
+header {
+	margin-right: 15px;
+}
+h1 {
+	font-size: 3em; 
+}
+
+h2, h3{
 	text-transform: uppercase;
 }
 
@@ -25,6 +32,7 @@ p, ul {
 }
 
 body {
+	margin: 10px;
 	display: flex;
 }
 
@@ -76,6 +84,7 @@ aside section:nth-child(3) ul {
 
 #photocv {
 	align-self: center;
+	margin-top: 15px;
 }
 
 #imgcv {
@@ -102,10 +111,8 @@ main ul {
 	color: var(--jaune);
 }
 
-
 section ul {
 	padding-bottom: 20px;
-	border : none;
 }
 
 
@@ -119,7 +126,7 @@ section ul li ul {
 }
 
 .reco {
-	display: block;
+	display: inline-block;
     float: left;
     margin-right: 20%;
     margin-bottom: 50px;
