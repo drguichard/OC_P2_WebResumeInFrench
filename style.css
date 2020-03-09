@@ -118,6 +118,22 @@ section ul li ul {
 	width: 60%;
 }
 
+.reco {
+	display: block;
+    float: left;
+    margin-right: 20%;
+    margin-bottom: 50px;
+}
+
+.certif {
+	display: flex;
+    flex-direction: column;
+}
+
+section:last-child {
+	display: block;
+}
+
 @media screen and (max-width: 1280px)
 
 
