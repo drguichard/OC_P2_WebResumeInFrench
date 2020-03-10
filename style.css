@@ -86,13 +86,15 @@ aside section:nth-child(5) ul {
 #competences {
     display: flex;
     flex-wrap: wrap;
-	}
+    justify-content: space-between;
+    margin-left: -2em;
+}
 
 /* images */
 .img_competences {
-  	height: auto;
-  	width: 4em;
-  	padding: 2em;
+    height: 60px;
+    width: auto;
+    padding: 1em;
 }
 
 .img_loisirs {
@@ -157,11 +159,7 @@ section:last-child {
 	display: block;
 }
 
-
-
-
-
-/* On screens that are 992px or less, set the background color to blue */
+/* Media queries */
 @media screen and (max-width: 992px) {
   body {
     background-color: white;
@@ -180,17 +178,9 @@ section:last-child {
  }
  	
 
-
-
-
-
-
-
-/* On screens that are 600px or less, set the background color to olive */
+/* On screens that are 600px or less*/
 @media screen and (max-width: 600px) {
-  body {
-    background-color: green;
-  }
+/* no need for smartphone addjustments because it fits automatically thanks to the tablet media screen above */
 }
 
 
