@@ -26,11 +26,10 @@ a:link, a:visited {
 
 button {
   background-color: black;
-  border: none;
   color: white;
-  padding: 7px 17px;
+  padding: 3px 10px;
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
   cursor: pointer;
 }
 
@@ -197,8 +196,9 @@ main section h2 {
  #all_page {
     flex-direction: column-reverse;
     font-size: large;
-
  }
+
+
 
  aside {
  	max-width: inherit;
@@ -214,6 +214,10 @@ main section h2 {
 	#all_page {
     	font-size: inherit;
  }
+
+ 	button {
+ 		font-size: 14px;
+ 	} 
 
 	main {
 		padding-left: 0px;
