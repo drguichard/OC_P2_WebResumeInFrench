@@ -164,11 +164,11 @@ section:last-child {
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
   body {
-    background-color: yellow;
+    background-color: white;
   }
 
  #all_page {
-    flex-direction: column;
+    flex-direction: column-reverse;
  }
 
  aside {
