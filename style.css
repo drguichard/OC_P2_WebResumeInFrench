@@ -18,10 +18,21 @@ a:link, a:visited {
   cursor: grabbing;
 }
 
-#underline, main section h2 {
+#underline {
 	text-decoration-line: underline;
 	text-decoration-color: var(--jaune);
   	text-decoration-style: solid;
+}
+
+hr {
+	display: block;
+    border-color: var(--jaune);
+    margin-top: -0.9em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
 }
 
 h1 {
@@ -34,7 +45,8 @@ h2, h3{
 }
 
 h3 {
-	display: flex;
+	display: flex; /*to align the two parts of the h3 */
+	font-size: 1.7em;
 }
 
 h2, strong {
@@ -43,6 +55,7 @@ h2, strong {
 
 p, article, ul {
 	font-family: 'Oxanium', Arial, serif;
+	margin-bottom: 2em;
 }
 
 #all_page {
@@ -130,6 +143,7 @@ main ul {
 
 section ul {
 	padding-bottom: 20px;
+	padding-right: 1em;
 }
 
 
@@ -144,7 +158,9 @@ section ul li ul {
 
 #reco {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-right: inherit;
 }
 
 #certif {
@@ -155,9 +171,11 @@ main section h2 {
 	display: inline-block;
 }
 
-section:last-child {
-	display: block;
+#formation, #experience {
+	margin-bottom: -10px;
 }
+
+
 
 /* Media queries */
 @media screen and (max-width: 992px) {
