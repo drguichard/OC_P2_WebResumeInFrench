@@ -1,5 +1,5 @@
 :root{
-  --jaune: #FDCA05;
+  --jaune: #81C784;
 }
 
 @font-face {
@@ -12,9 +12,17 @@
     src: url('fonts/cinzel/Cinzel-Bold.otf') format('opentype');
 }
 
-header {
-	margin-right: 15px;
+a:link, a:visited {
+  color: blue;
+  text-decoration: underline;
+  cursor: grabbing;
 }
+
+a:link:active, a:visited:active {
+  color: (internal value);
+}
+
+
 h1 {
 	font-size: 3em; 
 }
@@ -31,9 +39,10 @@ p, ul {
 	font-family: 'Oxanium', Arial, serif;
 }
 
-body {
+#all_page {
 	margin: 10px;
 	display: flex;
+	text-align: justify;
 }
 
 
@@ -43,6 +52,8 @@ aside {
 	display: flex;
 	flex-direction: column;
 	position: relative;
+	word-break: break-all;
+
 }
 
 aside h2 {
@@ -61,23 +72,22 @@ aside section:nth-child(5) {
 aside section:nth-child(5) ul {
 	display: flex;
 	justify-content: space-between;
-	margin-right: 60px;
+	margin-right: 15px;
+    margin-left: -35px;
 	}
 
-/* compétences */
-aside section:nth-child(3) ul {
+#competences {
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    flex-wrap: wrap;
 	}
 
 /* images */
-.competences {
+.img_competences {
   	height: 35px;
-  	padding: 5px; 
+  	padding: 0px; 
 }
 
-.loisirs {
+.img_loisirs {
 	width: auto;
   	height: 90px; 
 }
@@ -96,10 +106,7 @@ aside section:nth-child(3) ul {
 main {
 	margin: auto;
 	padding-left: 40px;
-}
-
-header {
-	text-align: justify;
+	max-width: 850px;
 }
 
 main ul {
@@ -125,24 +132,44 @@ section ul li ul {
 	width: 60%;
 }
 
-.reco {
-	display: inline-block;
-    float: left;
-    margin-right: 20%;
-    margin-bottom: 50px;
+#reco {
+	display: flex;
+	justify-content: space-between;
 }
 
-.certif {
-	display: flex;
-    flex-direction: column;
+#certif {
+	margin-top: -20px;
+}
+
+main section h2 {
+	display: inline-block;
 }
 
 section:last-child {
 	display: block;
 }
 
-@media screen and (max-width: 1280px)
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: yellow;
+  }
 
+ #all_page {
+    flex-direction: column;
+ }
+
+ aside {
+ 	background-color: none;
+ }
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: green;
+  }
+}
 
 
 
