@@ -92,8 +92,8 @@ aside section:nth-child(5) {
 aside section:nth-child(5) ul {
 	display: flex;
 	justify-content: space-between;
-	margin-right: 15px;
-    margin-left: -35px;
+    margin-right: auto;
+    margin-left: -2em;
 	}
 
 #competences {
