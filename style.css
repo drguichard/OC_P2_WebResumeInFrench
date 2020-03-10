@@ -72,6 +72,7 @@ p, article, ul {
 	margin: 10px;
 	display: flex;
 	text-align: justify;
+	font-size: medium;
 }
 
 
@@ -195,7 +196,7 @@ main section h2 {
 
  #all_page {
     flex-direction: column-reverse;
-    font-size: 12px;
+    font-size: large;
 
  }
 
@@ -211,13 +212,19 @@ main section h2 {
 /* On screens that are 600px or less*/
 @media screen and (max-width: 600px) {
 	#all_page {
-    	font-size: 16px;
+    	font-size: inherit;
  }
 
 	main {
 		padding-left: 0px;
 	}
 }
+
+@media print {
+	aside {
+		background-color: white;
+	}
+} 
 
 
 
