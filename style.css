@@ -18,10 +18,11 @@ a:link, a:visited {
   cursor: grabbing;
 }
 
-a:link:active, a:visited:active {
-  color: (internal value);
+#underline, main section h2 {
+	text-decoration-line: underline;
+	text-decoration-color: var(--jaune);
+  	text-decoration-style: solid;
 }
-
 
 h1 {
 	font-size: 3em; 
@@ -29,13 +30,18 @@ h1 {
 
 h2, h3{
 	text-transform: uppercase;
+	width: auto;
+}
+
+h3 {
+	display: flex;
 }
 
 h2, strong {
 	font-family: 'Cinzel-bold', Arial, serif;
 }
 
-p, ul {
+p, article, ul {
 	font-family: 'Oxanium', Arial, serif;
 }
 
@@ -53,6 +59,7 @@ aside {
 	flex-direction: column;
 	position: relative;
 	word-break: break-all;
+	max-width: 450px;
 
 }
 
@@ -83,8 +90,9 @@ aside section:nth-child(5) ul {
 
 /* images */
 .img_competences {
-  	height: 35px;
-  	padding: 0px; 
+  	height: auto;
+  	width: 4em;
+  	padding: 2em;
 }
 
 .img_loisirs {
@@ -149,6 +157,10 @@ section:last-child {
 	display: block;
 }
 
+
+
+
+
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
   body {
@@ -160,8 +172,18 @@ section:last-child {
  }
 
  aside {
- 	background-color: none;
+ 	max-width: inherit;
  }
+
+ aside section:nth-child(5) {
+	position: inherit;
+ }
+ 	
+
+
+
+
+
 
 
 /* On screens that are 600px or less, set the background color to olive */
