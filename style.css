@@ -198,7 +198,9 @@ main section h2 {
 
 /* On screens that are 600px or less*/
 @media screen and (max-width: 600px) {
-/* no need for smartphone addjustments because it fits automatically thanks to the tablet media screen above */
+	main {
+		padding-left: 0px;
+	}
 }
 
 
