@@ -12,10 +12,8 @@
     src: url('fonts/cinzel/Cinzel-Bold.otf') format('opentype');
 }
 
-a:link, a:visited {
-  color: black;
-  text-decoration: underline;
-  cursor: grabbing;
+input:hover, button:hover {
+	text-decoration: underline;
 }
 
 #underline {
@@ -23,6 +21,10 @@ a:link, a:visited {
 	text-decoration-color: var(--jaune);
   	text-decoration-style: solid;
   	display: contents;
+}
+
+.url {
+	text-decoration-line: underline;
 }
 
 form, button {
