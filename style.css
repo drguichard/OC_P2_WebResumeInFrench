@@ -22,6 +22,7 @@ a:link, a:visited {
 	text-decoration-line: underline;
 	text-decoration-color: var(--jaune);
   	text-decoration-style: solid;
+  	display: contents;
 }
 
 button {
@@ -64,7 +65,6 @@ h2, strong {
 
 p, article, ul {
 	font-family: 'Oxanium', Arial, serif;
-	margin-bottom: 2em;
 }
 
 #all_page {
@@ -110,7 +110,7 @@ aside section:nth-child(5) ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: -2em;
+    margin-left: -1em;
 }
 
 /* images */
@@ -171,10 +171,17 @@ section ul li ul {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-right: inherit;
+	margin-bottom: 1em;
 }
 
-#certif {
-	margin-top: -20px;
+.reco_list {
+	margin-bottom: inherit;
+}
+
+#formation li strong, #experience li strong {
+	display: block;
+	width: 25%;
+	min-width: fit-content;
 }
 
 main section h2 {
@@ -209,6 +216,11 @@ main section h2 {
  #reco {
 	display: block;
 	}
+
+section ul li ul {
+	width: 100%;
+    margin: inherit;
+	}
 }
  	
 
@@ -226,6 +238,8 @@ main {
 section ul li {
 	display: block !important;
 	}
+
+
 
 }
 
