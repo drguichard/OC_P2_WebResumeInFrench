@@ -1,5 +1,5 @@
 :root{
-  --jaune: #b7aeaf;
+  --jaune: #FDCA07;
 }
 
 @font-face {
@@ -198,30 +198,35 @@ main section h2 {
     font-size: large;
  }
 
-
-
  aside {
  	max-width: inherit;
- }
+ 	}
 
  aside section:nth-child(5) {
 	position: inherit;
- }
+ 	}
+
+ #reco {
+	display: block;
+	}
+}
  	
 
 /* On screens that are 600px or less*/
 @media screen and (max-width: 600px) {
-	#all_page {
-    	font-size: inherit;
- }
 
- 	button {
- 		font-size: 14px;
+ button {
+ 	font-size: 14px;
  	} 
 
-	main {
-		padding-left: 0px;
+main {
+	padding-left: 0px;
 	}
+
+section ul li {
+	display: block !important;
+	}
+
 }
 
 @media print {
