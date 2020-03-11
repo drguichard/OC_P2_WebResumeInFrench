@@ -25,13 +25,14 @@ a:link, a:visited {
   	display: contents;
 }
 
-button {
-  background-color: black;
-  color: white;
-  padding: 3px 10px;
-  text-align: center;
-  font-size: 12px;
-  cursor: pointer;
+form, button {
+	display: contents;
+  	background-color: black;
+  	color: red;
+  	padding: 3px 10px;
+  	text-align: center;
+  	font-size: 12px;
+  	cursor: pointer;
 }
 
 hr {
@@ -234,16 +235,9 @@ section ul li ul {
 /* On screens that are 600px or less*/
 @media screen and (max-width: 600px) {
 
- button {
- 	font-size: 14px;
- 	} 
-
 section ul li {
 	display: block !important;
 	}
-
-
-
 }
 
 @media print {
