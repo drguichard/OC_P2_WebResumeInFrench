@@ -109,7 +109,7 @@ aside section:nth-child(5) ul {
 #competences {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     margin-left: -1em;
 }
 
@@ -217,10 +217,17 @@ main section h2 {
 	display: block;
 	}
 
+main {
+	padding-left: 0px;
+	}
+
 section ul li ul {
 	width: 100%;
     margin: inherit;
 	}
+
+#formation li strong, #experience li strong {
+    width: 40%;
 }
  	
 
@@ -230,10 +237,6 @@ section ul li ul {
  button {
  	font-size: 14px;
  	} 
-
-main {
-	padding-left: 0px;
-	}
 
 section ul li {
 	display: block !important;
