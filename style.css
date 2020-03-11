@@ -144,7 +144,7 @@ main {
 }
 
 main ul {
-    padding-inline-start: 0px;
+    padding: 0px;
 }
 
 #prenom {
