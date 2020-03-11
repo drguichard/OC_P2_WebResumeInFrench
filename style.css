@@ -167,6 +167,10 @@ section ul li ul {
 	width: 60%;
 }
 
+section ul li ul li:nth-child(2) {
+	text-decoration-line: underline;
+}
+
 #reco {
 	display: flex;
 	flex-wrap: wrap;
