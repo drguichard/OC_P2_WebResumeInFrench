@@ -12,7 +12,7 @@
     src: url('fonts/cinzel/Cinzel-Bold.otf') format('opentype');
 }
 
-input:hover, button:hover {
+input:hover, button:hover, h4 {
 	text-decoration: underline;
 }
 
@@ -68,6 +68,10 @@ h2, strong {
 
 p, article, ul {
 	font-family: 'Oxanium', Arial, serif;
+}
+
+article {
+	margin-bottom: 1em;
 }
 
 #all_page {
