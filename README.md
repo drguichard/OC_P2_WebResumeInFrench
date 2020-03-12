@@ -11,11 +11,6 @@ Or you can [click here](https://drguichard.github.io/OC_P2_WebResumeInFrench/?)
 [Powerpoint FR](https://docs.google.com/presentation/d/1apDd7QdwctVMDFZqopNtjH11qsDhz3UrjAj3OqQ_CJw/edit?usp=sharing)
 
 [Wireframes](https://www.draw.io/#G175Lb-bab3NIoi5fVJcXWHc-7FP5g_kjl)
-<p align="center">
-  <img width=auto height=auto src="https://www.draw.io/#G175Lb-bab3NIoi5fVJcXWHc-7FP5g_kjl">
-</p>
-
-
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
